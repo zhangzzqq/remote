@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="患者中心">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/nav_patient_overview"
+                    android:icon="@drawable/ic_menu_camera"
+                    android:title="患者总览"/>
+                <item
+                    android:id="@+id/nav_assess"
+                    android:icon="@drawable/ic_menu_gallery"
+                    android:title="评估评分"/>
+                <item
+                    android:id="@+id/nav_voice_note"
+                    android:icon="@drawable/ic_menu_slideshow"
+                    android:title="口述备忘"/>
+                <item
+                    android:id="@+id/nav_rounds_record"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="查房记录"/>
+                <item
+                    android:id="@+id/nav_shift_succession"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="交接班"/>
+                <item
+                    android:id="@+id/nav_remote_assistance"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="远程协助"/>
+                <item
+                    android:id="@+id/nav_checklist"
+                    android:icon="@drawable/ic_menu_manage"
+                    android:title="每日核查"/>
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="用户中心">
+        <menu>
+            <item
+                android:id="@+id/nav_settings_system"
+                android:icon="@drawable/ic_menu_share"
+                android:title="系统设置"
+                android:titleCondensed=""/>
+            <item
+                android:id="@+id/nav_user_center"
+                android:icon="@drawable/ic_menu_send"
+                android:title="用户管理"/>
+            <item
+                android:id="@+id/nav_settings_other"
+                android:icon="@drawable/ic_menu_send"
+                android:title="其他设置"/>
+        </menu>
+    </item>
+
+</menu>

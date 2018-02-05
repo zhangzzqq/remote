@@ -1,0 +1,60 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+        <variable
+            name="handler"
+            type="com.mdsd.telemedicine.module.main.MainContract.Presenter" />
+
+        <variable
+            name="viewModel"
+            type="com.mdsd.telemedicine.module.main.MainViewModel" />
+    </data>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:onClick="@{()->handler.selectPatient()}">
+
+        <ImageView
+            android:id="@+id/iv_header_patient"
+            android:layout_width="36dp"
+            android:layout_height="36dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginTop="8dp"
+            android:onClick="@{()->handler.selectPatient()}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.499"
+            app:srcCompat="@drawable/ic_person_bluegrey300_48dp" />
+
+        <TextView
+            android:id="@+id/tv_patient_name"
+            style="?attr/titleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="-9dp"
+            android:text="唐吟芬/02床"
+            app:layout_constraintLeft_toRightOf="@+id/iv_header_patient"
+            app:layout_constraintTop_toTopOf="@+id/iv_header_patient" />
+
+        <TextView
+            android:id="@+id/tv_patient_id"
+            style="?attr/subtitleTextStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="0dp"
+            android:text="ZY010101142763"
+            app:layout_constraintLeft_toRightOf="@+id/iv_header_patient"
+            app:layout_constraintTop_toBottomOf="@+id/tv_patient_name" />
+    </android.support.constraint.ConstraintLayout>
+</layout>
