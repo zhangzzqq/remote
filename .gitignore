@@ -1,5 +1,9 @@
 *.iml
 .gradle
+<<<<<<< HEAD
+=======
+.svn
+>>>>>>> 104ad7538e9f249c487657ac9b6220b1f771ffea
 /local.properties
 /.idea/workspace.xml
 /.idea/libraries
@@ -7,3 +11,8 @@
 /build
 /captures
 .externalNativeBuild
+<<<<<<< HEAD
+=======
+.idea
+/*/build
+>>>>>>> 104ad7538e9f249c487657ac9b6220b1f771ffea
