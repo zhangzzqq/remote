@@ -8,19 +8,19 @@
         android:inputType="textCapWords"
         android:title="search"
         app:actionViewClass="android.support.v7.widget.SearchView"
-        app:showAsAction="ifRoom|collapseActionView"/>
-
-    <item
-        android:id="@+id/action_mic"
-        android:icon="@drawable/ic_mic_white_24dp"
-        android:title="@string/action_voice_assistant"
-        app:actionViewClass="android.support.v7.widget."
         app:showAsAction="ifRoom"/>
 
-    <item
-        android:id="@+id/action_shortcut"
-        android:title="@string/action_shortcuts"
-        app:actionLayout="@layout/menu_item_main_shortcuts"
-        app:showAsAction="ifRoom"/>
+    <!--<item-->
+        <!--android:id="@+id/action_mic"-->
+        <!--android:icon="@drawable/ic_mic_white_24dp"-->
+        <!--android:title="@string/action_voice_assistant"-->
+        <!--app:actionViewClass="android.support.v7.widget."-->
+        <!--app:showAsAction="never"/>-->
+
+    <!--<item-->
+        <!--android:id="@+id/action_shortcut"-->
+        <!--android:title="@string/action_shortcuts"-->
+        <!--app:actionLayout="@layout/menu_item_main_shortcuts"-->
+        <!--app:showAsAction="never"/>-->
 
 </menu>

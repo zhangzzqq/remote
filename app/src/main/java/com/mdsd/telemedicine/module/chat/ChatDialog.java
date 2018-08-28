@@ -22,5 +22,7 @@ public class ChatDialog extends AppCompatDialogFragment {
         getDialog().requestWindowFeature(Window.FEATURE_NO_TITLE);
         View view = inflater.inflate(R.layout.dialog_chat, container);
         return view;
+
+
     }
 }

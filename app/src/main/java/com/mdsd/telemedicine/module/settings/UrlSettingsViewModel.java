@@ -5,4 +5,7 @@ package com.mdsd.telemedicine.module.settings;
  */
 
 public class UrlSettingsViewModel {
+
+
+
 }

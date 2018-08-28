@@ -5,16 +5,12 @@
 
     <data>
 
-
         <variable
             name="handler"
             type="com.mdsd.telemedicine.module.main.MainContract.Presenter" />
 
     </data>
 
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent">
 
         <android.support.constraint.ConstraintLayout
             android:layout_width="match_parent"
@@ -73,5 +69,5 @@
                 app:srcCompat="@drawable/ic_info_red600_24dp" />
 
         </android.support.constraint.ConstraintLayout>
-    </FrameLayout>
+
 </layout>

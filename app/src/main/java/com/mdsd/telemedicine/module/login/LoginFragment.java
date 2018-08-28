@@ -76,7 +76,9 @@ public class LoginFragment extends BaseFragment implements LoginContract.View {
 
     @Override
     public void gotoMainActivity() {
+
         MainActivity.start(getActivity());
+
         getActivity().finish();
     }
 
